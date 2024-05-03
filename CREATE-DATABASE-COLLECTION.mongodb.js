@@ -1,3 +1,4 @@
+
 /* Define o nome do banco de dados */
 const database = 'libri-database';
 
@@ -8,4 +9,4 @@ const collection = 'libri-collection';
 use(database);
 
 /* Cria a collection libr-collection */
-db.createCollection(collection)
+db.createCollection(collection);
